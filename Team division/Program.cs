@@ -43,8 +43,8 @@ namespace Team_division
 				TeamA += SelectedMember + "\r\n";
 			}
 
-			TeamA += Member[0] + "\r\n";
-			Member.Remove(Member[0]);
+			//TeamA += Member[0] + "\r\n";
+			//Member.Remove(Member[0]);
 
 			foreach(string S in Member)
 			{
